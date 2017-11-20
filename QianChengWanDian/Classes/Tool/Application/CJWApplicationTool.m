@@ -8,6 +8,7 @@
 
 #import "CJWApplicationTool.h"
 #import "CJWTabBarController.h"
+
 @implementation CJWApplicationTool
 
 SingletonImplementation(ApplicationTool)
@@ -19,5 +20,8 @@ SingletonImplementation(ApplicationTool)
     
     window.rootViewController = tabVC;
 }
+
+
+
 
 @end

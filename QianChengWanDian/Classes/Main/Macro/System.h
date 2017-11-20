@@ -22,5 +22,7 @@
 /** tabBar height */
 #define TabBar_Height 49.0
 
+#define SCREEN_SCALE  (SCREEN_WIDTH / 375.0)
+
 
 #endif /* System_h */

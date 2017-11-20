@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C7CEC921FC2BB95007D7BDC /* CJW_NetAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CEC911FC2BB95007D7BDC /* CJW_NetAPIManager.m */; };
+		3C7CEC951FC2C14E007D7BDC /* CJWNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CEC941FC2C14E007D7BDC /* CJWNetAPIClient.m */; };
+		3C7CEC971FC2C7A4007D7BDC /* *.cjwsc.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3C7CEC961FC2C7A4007D7BDC /* *.cjwsc.com.cer */; };
+		3C7CEC9B1FC2D15B007D7BDC /* CJWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CEC9A1FC2D15B007D7BDC /* CJWTool.m */; };
+		3CDB36681FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB36671FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.m */; };
 		6CBC19FD1FBD37C500AAD4AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC19FC1FBD37C500AAD4AB /* AppDelegate.m */; };
 		6CBC1A3F1FBD689A00AAD4AB /* AppDelegate+cjw.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC1A3E1FBD689A00AAD4AB /* AppDelegate+cjw.m */; };
 		6CBC1A431FBD68EF00AAD4AB /* CJWApplicationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC1A421FBD68EF00AAD4AB /* CJWApplicationTool.m */; };
@@ -40,6 +45,17 @@
 /* Begin PBXFileReference section */
 		041B1F82A6BA7407ABE5C470 /* Pods-QianChengWanDian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QianChengWanDian.release.xcconfig"; path = "Pods/Target Support Files/Pods-QianChengWanDian/Pods-QianChengWanDian.release.xcconfig"; sourceTree = "<group>"; };
 		0862C5C65DB2B63C87A4AF73 /* libPods-QianChengWanDian.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QianChengWanDian.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7CEC901FC2BB95007D7BDC /* CJW_NetAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJW_NetAPIManager.h; sourceTree = "<group>"; };
+		3C7CEC911FC2BB95007D7BDC /* CJW_NetAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJW_NetAPIManager.m; sourceTree = "<group>"; };
+		3C7CEC931FC2C14E007D7BDC /* CJWNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJWNetAPIClient.h; sourceTree = "<group>"; };
+		3C7CEC941FC2C14E007D7BDC /* CJWNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJWNetAPIClient.m; sourceTree = "<group>"; };
+		3C7CEC961FC2C7A4007D7BDC /* *.cjwsc.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "*.cjwsc.com.cer"; sourceTree = "<group>"; };
+		3C7CEC991FC2D15B007D7BDC /* CJWTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJWTool.h; sourceTree = "<group>"; };
+		3C7CEC9A1FC2D15B007D7BDC /* CJWTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJWTool.m; sourceTree = "<group>"; };
+		3CDB365D1FC288F5004A9A5F /* CJWHomeCellHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJWHomeCellHeader.h; sourceTree = "<group>"; };
+		3CDB36661FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJWHomeAdvertisementCell.h; sourceTree = "<group>"; };
+		3CDB36671FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJWHomeAdvertisementCell.m; sourceTree = "<group>"; };
+		3CDB366C1FC2BB13004A9A5F /* CJWPathUrls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJWPathUrls.h; sourceTree = "<group>"; };
 		6CBC19F81FBD37C500AAD4AB /* QianChengWanDian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QianChengWanDian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBC19FB1FBD37C500AAD4AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CBC19FC1FBD37C500AAD4AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +134,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3C7CEC981FC2D149007D7BDC /* CJWTool */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CEC991FC2D15B007D7BDC /* CJWTool.h */,
+				3C7CEC9A1FC2D15B007D7BDC /* CJWTool.m */,
+			);
+			path = CJWTool;
+			sourceTree = "<group>";
+		};
+		3CDB366B1FC2BAC0004A9A5F /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CEC961FC2C7A4007D7BDC /* *.cjwsc.com.cer */,
+				3CDB366C1FC2BB13004A9A5F /* CJWPathUrls.h */,
+				3C7CEC901FC2BB95007D7BDC /* CJW_NetAPIManager.h */,
+				3C7CEC911FC2BB95007D7BDC /* CJW_NetAPIManager.m */,
+				3C7CEC931FC2C14E007D7BDC /* CJWNetAPIClient.h */,
+				3C7CEC941FC2C14E007D7BDC /* CJWNetAPIClient.m */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
 		6CBC19EF1FBD37C500AAD4AB = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +190,7 @@
 			children = (
 				6CBC1A501FBD70C600AAD4AB /* Base */,
 				6CBC1A1B1FBD645600AAD4AB /* Main */,
+				6CBC1A321FBD645600AAD4AB /* Tool */,
 				6CBC1A331FBD645600AAD4AB /* Welcome */,
 				6CBC1A1A1FBD645600AAD4AB /* Login */,
 				6CBC1A161FBD645600AAD4AB /* Home */,
@@ -159,7 +198,6 @@
 				6CBC1A2A1FBD645600AAD4AB /* Sale */,
 				6CBC1A2E1FBD645600AAD4AB /* ShopCar */,
 				6CBC1A221FBD645600AAD4AB /* Mine */,
-				6CBC1A321FBD645600AAD4AB /* Tool */,
 				6CBC1A261FBD645600AAD4AB /* Others */,
 				6CBC1A271FBD645600AAD4AB /* Resources */,
 			);
@@ -228,6 +266,7 @@
 		6CBC1A191FBD645600AAD4AB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3CDB365D1FC288F5004A9A5F /* CJWHomeCellHeader.h */,
 				6CBC1A8E1FBE8B2700AAD4AB /* CollectionView */,
 				6CBC1A841FBE887400AAD4AB /* Cell */,
 			);
@@ -410,7 +449,9 @@
 		6CBC1A321FBD645600AAD4AB /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				3C7CEC981FC2D149007D7BDC /* CJWTool */,
 				6CBC1A401FBD68CB00AAD4AB /* Application */,
+				3CDB366B1FC2BAC0004A9A5F /* HTTP */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -557,6 +598,8 @@
 				6CBC1AA21FBEE4F600AAD4AB /* CJWAnnouncementCell.h */,
 				6CBC1AA31FBEE4F600AAD4AB /* CJWAnnouncementCell.m */,
 				6CBC1AA41FBEE4F600AAD4AB /* CJWAnnouncementCell.xib */,
+				3CDB36661FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.h */,
+				3CDB36671FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -625,6 +668,7 @@
 		6CBC19F01FBD37C500AAD4AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CJW;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Fireloli;
 				TargetAttributes = {
@@ -660,6 +704,7 @@
 				6CBC1A801FBD877B00AAD4AB /* Info.plist in Resources */,
 				6CBC1A7D1FBD866100AAD4AB /* Assets.xcassets in Resources */,
 				6CBC1A961FBE8C2F00AAD4AB /* CJWHomeCategoryCollectionCell.xib in Resources */,
+				3C7CEC971FC2C7A4007D7BDC /* *.cjwsc.com.cer in Resources */,
 				6CBC1AA61FBEE4F600AAD4AB /* CJWAnnouncementCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,16 +775,19 @@
 			files = (
 				6CBC1A641FBD824F00AAD4AB /* CJWBaseViewController.m in Sources */,
 				6CBC1AA51FBEE4F600AAD4AB /* CJWAnnouncementCell.m in Sources */,
+				3C7CEC951FC2C14E007D7BDC /* CJWNetAPIClient.m in Sources */,
 				6CBC1A3F1FBD689A00AAD4AB /* AppDelegate+cjw.m in Sources */,
 				6CBC1A4F1FBD6E0C00AAD4AB /* UIColor+extension.m in Sources */,
 				6CBC1A431FBD68EF00AAD4AB /* CJWApplicationTool.m in Sources */,
 				6CBC1A6D1FBD82C800AAD4AB /* CJWSaleController.m in Sources */,
+				3C7CEC921FC2BB95007D7BDC /* CJW_NetAPIManager.m in Sources */,
 				6CBC1A5E1FBD772E00AAD4AB /* UIViewController+CJWNavigationExtension.m in Sources */,
 				6CBC1AA11FBEE1EC00AAD4AB /* CJWAnnouncementView.m in Sources */,
 				6CBC1A571FBD70EF00AAD4AB /* CJWTabBarController.m in Sources */,
 				6CBC1A731FBD82F500AAD4AB /* CJWShopCarController.m in Sources */,
 				6CBC1A5B1FBD76D900AAD4AB /* CJWNavigationController.m in Sources */,
 				6CBC1A671FBD826800AAD4AB /* CJWHomeController.m in Sources */,
+				3C7CEC9B1FC2D15B007D7BDC /* CJWTool.m in Sources */,
 				6CBC1A881FBE88F100AAD4AB /* CJWBaseTableViewCell.m in Sources */,
 				6CBC1A7E1FBD866100AAD4AB /* main.m in Sources */,
 				6CBC1A951FBE8C2F00AAD4AB /* CJWHomeCategoryCollectionCell.m in Sources */,
@@ -749,6 +797,7 @@
 				6CBC1A831FBD9BAB00AAD4AB /* CJWBaseTableViewController.m in Sources */,
 				6CBC1A911FBE8B6300AAD4AB /* CJWHomeCategoryCollectionView.m in Sources */,
 				6CBC1A761FBD830400AAD4AB /* CJWMineController.m in Sources */,
+				3CDB36681FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.m in Sources */,
 				6CBC19FD1FBD37C500AAD4AB /* AppDelegate.m in Sources */,
 				6CBC1A991FBE8C5000AAD4AB /* CJWHomeCategoryCell.m in Sources */,
 			);
@@ -868,16 +917,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = R69Y3QBT64;
+				DEVELOPMENT_TEAM = QHU33NXJ75;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QianChengWanDian/Classes/Resources/CJWPrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/QianChengWanDian/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cjwsc.qcwd;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmjtc.AgriculturalProduct;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "01bf9e87-8407-41a4-90a1-51fa7982a62e";
-				PROVISIONING_PROFILE_SPECIFIER = qcwd_Dev;
+				PROVISIONING_PROFILE = "67df50a1-dc31-4d61-9159-fc945f8cac6c";
+				PROVISIONING_PROFILE_SPECIFIER = wmjtc_Dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -896,7 +945,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/QianChengWanDian/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cjwsc.qcwd;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmjtc.AgriculturalProduct;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "95117341-1b8e-42d6-a98c-8ade9ecd7fac";
 				PROVISIONING_PROFILE_SPECIFIER = qcwd_Dis;

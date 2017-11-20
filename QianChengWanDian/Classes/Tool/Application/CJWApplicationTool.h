@@ -15,4 +15,7 @@ SingletonInterface(ApplicationTool)
 
 + (void)chooseRootViewController:(UIWindow *)window;
 
+
+
+
 @end

@@ -16,6 +16,11 @@
 #import "Singleton.h"
 
 
+#pragma mark - network
+#import "CJWPathUrls.h"
+
+
+
 #pragma mark - NavigationController
 #import "CJWNavigationController.h"
 

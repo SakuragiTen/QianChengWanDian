@@ -17,6 +17,14 @@ NSString *const reuseIdentifier = @"CJWTableViewCell";
 
 @implementation CJWBaseTableViewController
 
+- (instancetype)init
+{
+    if (self = [super init]) {
+        
+    }
+    return [self initWithStyle:UITableViewStyleGrouped];
+}
+
 - (instancetype)initWithStyle:(UITableViewStyle)style {
     if (self = [super initWithNibName:nil bundle:nil]) {
         _style = style;
@@ -27,7 +35,10 @@ NSString *const reuseIdentifier = @"CJWTableViewCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
     [self.view addSubview:self.tableView];
+    
 }
 
 
