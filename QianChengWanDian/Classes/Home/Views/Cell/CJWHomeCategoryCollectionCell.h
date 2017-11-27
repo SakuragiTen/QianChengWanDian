@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CJWHomeModel.h"
 @interface CJWHomeCategoryCollectionCell : UICollectionViewCell
+
+/** 分类model */
+@property (nonatomic, strong) CJWHomeCategoryModel *categoryModel;
 
 @end

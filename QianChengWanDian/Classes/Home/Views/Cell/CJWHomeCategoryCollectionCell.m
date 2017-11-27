@@ -37,7 +37,6 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-    [_imageView sd_setImageWithURL:[NSURL URLWithString:@"http://static.cjwsc.com//image/d1/72/a4/d172a4719487844d9c2b0a1d165af6b0.png"] placeholderImage:nil];
     
     if (SCREEN_WIDTH == 320) {
         _titleLabel.font = [UIFont systemFontOfSize:12];
@@ -49,7 +48,14 @@
     
 }
 
-
+- (void)setCategoryModel:(CJWHomeCategoryModel *)categoryModel
+{
+    _categoryModel = categoryModel;
+    
+    [_imageView sd_setImageWithURL:[NSURL URLWithString:categoryModel.icon] placeholderImage:nil]; //UI强调此处不需要占位图
+    
+    _titleLabel.text =categoryModel.name;
+}
 
 
 @end

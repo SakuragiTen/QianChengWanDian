@@ -13,4 +13,6 @@
 #define kCJWOrangeColor  RGB(232,130,114)
 #define kBgColor   (RGB(239,239,244))
 
+#define kTextBlackColor RGB(51, 51, 51)
+
 #endif /* Color_Font_h */

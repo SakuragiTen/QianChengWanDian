@@ -9,7 +9,7 @@
 #import "CJWNavigationController.h"
 #import "UIViewController+CJWNavigationExtension.h"
 
-#define kDefaultBackImageName @"backIcon"
+#define kDefaultBackImageName @"ic_backIcon"
 
 #pragma mark - CJWWrapNavigationController
 
@@ -21,8 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationBar.translucent = YES;
+    self.navigationBar.translucent = NO;
     self.automaticallyAdjustsScrollViewInsets = NO;
+    self.navigationBar.tintColor = RGB(34, 34, 34);
 }
 - (UIViewController *)popViewControllerAnimated:(BOOL)animated {
     return [self.navigationController popViewControllerAnimated:animated];
@@ -62,7 +63,7 @@
     else{
         viewController.navigationItem.leftBarButtonItems = @[leftnegativeSpacer, backBarButton];
     }
-    
+//    [backBarButton setTintColor:[UIColor redColor]];
     /** 自动隐藏tabBar */
     viewController.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:[CJWWrapViewController wrapViewControllerWithViewController:viewController] animated:animated];

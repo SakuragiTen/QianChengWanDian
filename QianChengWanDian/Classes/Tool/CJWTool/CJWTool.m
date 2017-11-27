@@ -49,11 +49,20 @@ SingletonImplementation(Tool)
 
 + (NSString *)getDeviceIdentifier
 {
-//    NSString *deviceIdentifier = [NSString stringWithFormat:@"%@",[UIDevice currentDevice].uniqueDeviceIdentifier];
-//   
-//    return [deviceIdentifier substringToIndex:20];
+    CFUUIDRef uuid = CFUUIDCreate(NULL);
+    assert(uuid != NULL);
+    CFStringRef uuidStr = CFUUIDCreateString(NULL, uuid);
+    NSString *identifierNumber = [SSKeychain passwordForService:CJW_B2C_SERVER_NAME account:@"user"];
     
-    return nil;
+    if (!identifierNumber){
+        [SSKeychain setPassword: [NSString stringWithFormat:@"%@", uuidStr] forService:CJW_B2C_SERVER_NAME account:@"user"];
+        identifierNumber = [SSKeychain passwordForService:CJW_B2C_SERVER_NAME account:@"user"];
+    }
+    
+
+   
+    return identifierNumber;
+    
 }
 
 @end

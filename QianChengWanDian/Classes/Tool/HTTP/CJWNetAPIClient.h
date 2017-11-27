@@ -22,7 +22,7 @@ typedef enum {
 
 @interface CJWNetAPIClient : NSObject
 
-+ (AFHTTPSessionManager *)shareManager;
+SingletonInterface(Client)
 
 
 

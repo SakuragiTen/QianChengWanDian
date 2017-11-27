@@ -17,4 +17,7 @@
 /* Xib创建的 */
 + (instancetype)cellFromXibWithTableView:(UITableView *)tableView;
 
+/** 获取对应的tableView */
+- (UITableView *)currentTableView;
+
 @end

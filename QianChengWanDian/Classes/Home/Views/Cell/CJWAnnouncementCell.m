@@ -8,10 +8,12 @@
 
 #import "CJWAnnouncementCell.h"
 #import "CJWAnnouncementView.h"
-
+#import "CJWHomeModel.h"
 @interface CJWAnnouncementCell ()
 
 @property (nonatomic, strong) NSArray *announceArray;
+
+@property (nonatomic, strong) NSArray *contentArray;
 
 @end
 
@@ -21,9 +23,18 @@
 {
     [super awakeFromNib];
     
-    [self addAnnouncementViewWithContentArray:@[@"zheshidiyitiao", @"这是第二条第二条第二条"]];
+//    [self addAnnouncementViewWithContentArray:@[@"zheshidiyitiao", @"这是第二条第二条第二条"]];
+    [self requestHeadLineData];
 }
 
+#pragma mark - 请求头条数据
+- (void)requestHeadLineData
+{
+    [netWork() requestHomeHeadLineWithHudView:self.superview.superview completionHandle:^(id data) {
+        _contentArray = [CJWHomeHeadLineModel objectsArrayWithKeyValuesArray:data];
+         [self addAnnouncementViewWithContentArray:[CJWHomeHeadLineModel titleArrayWithArray:_contentArray]];
+    }];
+}
 
 
 - (void)addAnnouncementViewWithContentArray:(NSArray *)contentArray

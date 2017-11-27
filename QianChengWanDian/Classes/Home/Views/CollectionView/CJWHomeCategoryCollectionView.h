@@ -13,4 +13,7 @@
 
 + (instancetype)categoryCollectionView;
 
+/** 分类导航数组 */
+@property (nonatomic, strong) NSArray *categoryArray;
+
 @end

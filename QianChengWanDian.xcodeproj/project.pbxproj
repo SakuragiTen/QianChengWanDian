@@ -12,6 +12,17 @@
 		3C7CEC971FC2C7A4007D7BDC /* *.cjwsc.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3C7CEC961FC2C7A4007D7BDC /* *.cjwsc.com.cer */; };
 		3C7CEC9B1FC2D15B007D7BDC /* CJWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CEC9A1FC2D15B007D7BDC /* CJWTool.m */; };
 		3CDB36681FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB36671FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.m */; };
+		6C0016511FCBB82700DAEEC8 /* CJWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C00164A1FCBB82600DAEEC8 /* CJWRefreshHeader.m */; };
+		6C0016521FCBB82700DAEEC8 /* CJWActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C00164E1FCBB82700DAEEC8 /* CJWActivityIndicatorView.m */; };
+		6C0016531FCBB82700DAEEC8 /* CJWProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C00164F1FCBB82700DAEEC8 /* CJWProgressView.m */; };
+		6C0016541FCBB82700DAEEC8 /* CJWRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0016501FCBB82700DAEEC8 /* CJWRefreshFooter.m */; };
+		6C92B37C1FC7EF3900B7A683 /* UIScrollView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92B37B1FC7EF3800B7A683 /* UIScrollView+extension.m */; };
+		6C92B37F1FC7F3C300B7A683 /* MBProgressHUD+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92B37E1FC7F3C300B7A683 /* MBProgressHUD+extension.m */; };
+		6C92B3811FC7F53000B7A683 /* MBProgressHUD_CJW.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C92B3801FC7F53000B7A683 /* MBProgressHUD_CJW.bundle */; };
+		6C92B3841FC7F72E00B7A683 /* CJWBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92B3831FC7F72E00B7A683 /* CJWBaseModel.m */; };
+		6C92B3871FC7F74300B7A683 /* CJWHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92B3861FC7F74300B7A683 /* CJWHomeModel.m */; };
+		6C92B38A1FC8011A00B7A683 /* CJWBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92B3891FC8011A00B7A683 /* CJWBaseWebViewController.m */; };
+		6C92B38E1FC8031600B7A683 /* CJWHomeBannerWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92B38D1FC8031600B7A683 /* CJWHomeBannerWebController.m */; };
 		6CBC19FD1FBD37C500AAD4AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC19FC1FBD37C500AAD4AB /* AppDelegate.m */; };
 		6CBC1A3F1FBD689A00AAD4AB /* AppDelegate+cjw.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC1A3E1FBD689A00AAD4AB /* AppDelegate+cjw.m */; };
 		6CBC1A431FBD68EF00AAD4AB /* CJWApplicationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC1A421FBD68EF00AAD4AB /* CJWApplicationTool.m */; };
@@ -56,6 +67,28 @@
 		3CDB36661FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJWHomeAdvertisementCell.h; sourceTree = "<group>"; };
 		3CDB36671FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJWHomeAdvertisementCell.m; sourceTree = "<group>"; };
 		3CDB366C1FC2BB13004A9A5F /* CJWPathUrls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJWPathUrls.h; sourceTree = "<group>"; };
+		6C0016491FCBB82600DAEEC8 /* CJWRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJWRefreshHeader.h; sourceTree = "<group>"; };
+		6C00164A1FCBB82600DAEEC8 /* CJWRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJWRefreshHeader.m; sourceTree = "<group>"; };
+		6C00164B1FCBB82600DAEEC8 /* CJWActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJWActivityIndicatorView.h; sourceTree = "<group>"; };
+		6C00164C1FCBB82600DAEEC8 /* CJWProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJWProgressView.h; sourceTree = "<group>"; };
+		6C00164D1FCBB82600DAEEC8 /* CJWRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJWRefreshFooter.h; sourceTree = "<group>"; };
+		6C00164E1FCBB82700DAEEC8 /* CJWActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJWActivityIndicatorView.m; sourceTree = "<group>"; };
+		6C00164F1FCBB82700DAEEC8 /* CJWProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJWProgressView.m; sourceTree = "<group>"; };
+		6C0016501FCBB82700DAEEC8 /* CJWRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJWRefreshFooter.m; sourceTree = "<group>"; };
+		6C92B37A1FC7EF3800B7A683 /* UIScrollView+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+extension.h"; sourceTree = "<group>"; };
+		6C92B37B1FC7EF3800B7A683 /* UIScrollView+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+extension.m"; sourceTree = "<group>"; };
+		6C92B37D1FC7F3C300B7A683 /* MBProgressHUD+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+extension.h"; sourceTree = "<group>"; };
+		6C92B37E1FC7F3C300B7A683 /* MBProgressHUD+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+extension.m"; sourceTree = "<group>"; };
+		6C92B3801FC7F53000B7A683 /* MBProgressHUD_CJW.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD_CJW.bundle; sourceTree = "<group>"; };
+		6C92B3821FC7F72E00B7A683 /* CJWBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJWBaseModel.h; sourceTree = "<group>"; };
+		6C92B3831FC7F72E00B7A683 /* CJWBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJWBaseModel.m; sourceTree = "<group>"; };
+		6C92B3851FC7F74300B7A683 /* CJWHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJWHomeModel.h; sourceTree = "<group>"; };
+		6C92B3861FC7F74300B7A683 /* CJWHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJWHomeModel.m; sourceTree = "<group>"; };
+		6C92B3881FC8011A00B7A683 /* CJWBaseWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJWBaseWebViewController.h; sourceTree = "<group>"; };
+		6C92B3891FC8011A00B7A683 /* CJWBaseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJWBaseWebViewController.m; sourceTree = "<group>"; };
+		6C92B38C1FC8031600B7A683 /* CJWHomeBannerWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJWHomeBannerWebController.h; sourceTree = "<group>"; };
+		6C92B38D1FC8031600B7A683 /* CJWHomeBannerWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJWHomeBannerWebController.m; sourceTree = "<group>"; };
+		6C92B38F1FC804FE00B7A683 /* CJWHomeSubControllerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJWHomeSubControllerHeader.h; sourceTree = "<group>"; };
 		6CBC19F81FBD37C500AAD4AB /* QianChengWanDian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QianChengWanDian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBC19FB1FBD37C500AAD4AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CBC19FC1FBD37C500AAD4AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -156,6 +189,31 @@
 			path = HTTP;
 			sourceTree = "<group>";
 		};
+		6C92B38B1FC802EC00B7A683 /* SubController */ = {
+			isa = PBXGroup;
+			children = (
+				6C92B38F1FC804FE00B7A683 /* CJWHomeSubControllerHeader.h */,
+				6C92B38C1FC8031600B7A683 /* CJWHomeBannerWebController.h */,
+				6C92B38D1FC8031600B7A683 /* CJWHomeBannerWebController.m */,
+			);
+			path = SubController;
+			sourceTree = "<group>";
+		};
+		6C92B3931FC8285C00B7A683 /* RefreshHeaderFooter */ = {
+			isa = PBXGroup;
+			children = (
+				6C0016491FCBB82600DAEEC8 /* CJWRefreshHeader.h */,
+				6C00164A1FCBB82600DAEEC8 /* CJWRefreshHeader.m */,
+				6C00164D1FCBB82600DAEEC8 /* CJWRefreshFooter.h */,
+				6C0016501FCBB82700DAEEC8 /* CJWRefreshFooter.m */,
+				6C00164B1FCBB82600DAEEC8 /* CJWActivityIndicatorView.h */,
+				6C00164E1FCBB82700DAEEC8 /* CJWActivityIndicatorView.m */,
+				6C00164C1FCBB82600DAEEC8 /* CJWProgressView.h */,
+				6C00164F1FCBB82700DAEEC8 /* CJWProgressView.m */,
+			);
+			path = RefreshHeaderFooter;
+			sourceTree = "<group>";
+		};
 		6CBC19EF1FBD37C500AAD4AB = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +310,7 @@
 			children = (
 				6CBC1A651FBD826800AAD4AB /* CJWHomeController.h */,
 				6CBC1A661FBD826800AAD4AB /* CJWHomeController.m */,
+				6C92B38B1FC802EC00B7A683 /* SubController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -259,6 +318,8 @@
 		6CBC1A181FBD645600AAD4AB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6C92B3851FC7F74300B7A683 /* CJWHomeModel.h */,
+				6C92B3861FC7F74300B7A683 /* CJWHomeModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -300,6 +361,10 @@
 				6CBC1A9A1FBE93DF00AAD4AB /* UITableViewCell+CJWTableViewCell.m */,
 				6CBC1A4D1FBD6E0B00AAD4AB /* UIColor+extension.h */,
 				6CBC1A4E1FBD6E0C00AAD4AB /* UIColor+extension.m */,
+				6C92B37A1FC7EF3800B7A683 /* UIScrollView+extension.h */,
+				6C92B37B1FC7EF3800B7A683 /* UIScrollView+extension.m */,
+				6C92B37D1FC7F3C300B7A683 /* MBProgressHUD+extension.h */,
+				6C92B37E1FC7F3C300B7A683 /* MBProgressHUD+extension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -307,6 +372,7 @@
 		6CBC1A211FBD645600AAD4AB /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				6C92B3931FC8285C00B7A683 /* RefreshHeaderFooter */,
 				6CBC1A9E1FBEE06C00AAD4AB /* Announcement */,
 			);
 			path = Lib;
@@ -369,6 +435,7 @@
 		6CBC1A281FBD645600AAD4AB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6C92B3801FC7F53000B7A683 /* MBProgressHUD_CJW.bundle */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -548,6 +615,8 @@
 				6CBC1A631FBD824F00AAD4AB /* CJWBaseViewController.m */,
 				6CBC1A811FBD9BAB00AAD4AB /* CJWBaseTableViewController.h */,
 				6CBC1A821FBD9BAB00AAD4AB /* CJWBaseTableViewController.m */,
+				6C92B3881FC8011A00B7A683 /* CJWBaseWebViewController.h */,
+				6C92B3891FC8011A00B7A683 /* CJWBaseWebViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -555,6 +624,8 @@
 		6CBC1A521FBD70C600AAD4AB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6C92B3821FC7F72E00B7A683 /* CJWBaseModel.h */,
+				6C92B3831FC7F72E00B7A683 /* CJWBaseModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -703,6 +774,7 @@
 			files = (
 				6CBC1A801FBD877B00AAD4AB /* Info.plist in Resources */,
 				6CBC1A7D1FBD866100AAD4AB /* Assets.xcassets in Resources */,
+				6C92B3811FC7F53000B7A683 /* MBProgressHUD_CJW.bundle in Resources */,
 				6CBC1A961FBE8C2F00AAD4AB /* CJWHomeCategoryCollectionCell.xib in Resources */,
 				3C7CEC971FC2C7A4007D7BDC /* *.cjwsc.com.cer in Resources */,
 				6CBC1AA61FBEE4F600AAD4AB /* CJWAnnouncementCell.xib in Resources */,
@@ -782,13 +854,22 @@
 				6CBC1A431FBD68EF00AAD4AB /* CJWApplicationTool.m in Sources */,
 				6CBC1A6D1FBD82C800AAD4AB /* CJWSaleController.m in Sources */,
 				3C7CEC921FC2BB95007D7BDC /* CJW_NetAPIManager.m in Sources */,
+				6C0016531FCBB82700DAEEC8 /* CJWProgressView.m in Sources */,
+				6C92B37F1FC7F3C300B7A683 /* MBProgressHUD+extension.m in Sources */,
 				6CBC1A5E1FBD772E00AAD4AB /* UIViewController+CJWNavigationExtension.m in Sources */,
 				6CBC1AA11FBEE1EC00AAD4AB /* CJWAnnouncementView.m in Sources */,
+				6C92B3841FC7F72E00B7A683 /* CJWBaseModel.m in Sources */,
 				6CBC1A571FBD70EF00AAD4AB /* CJWTabBarController.m in Sources */,
+				6C92B37C1FC7EF3900B7A683 /* UIScrollView+extension.m in Sources */,
 				6CBC1A731FBD82F500AAD4AB /* CJWShopCarController.m in Sources */,
+				6C0016511FCBB82700DAEEC8 /* CJWRefreshHeader.m in Sources */,
+				6C0016521FCBB82700DAEEC8 /* CJWActivityIndicatorView.m in Sources */,
 				6CBC1A5B1FBD76D900AAD4AB /* CJWNavigationController.m in Sources */,
 				6CBC1A671FBD826800AAD4AB /* CJWHomeController.m in Sources */,
 				3C7CEC9B1FC2D15B007D7BDC /* CJWTool.m in Sources */,
+				6C0016541FCBB82700DAEEC8 /* CJWRefreshFooter.m in Sources */,
+				6C92B38E1FC8031600B7A683 /* CJWHomeBannerWebController.m in Sources */,
+				6C92B38A1FC8011A00B7A683 /* CJWBaseWebViewController.m in Sources */,
 				6CBC1A881FBE88F100AAD4AB /* CJWBaseTableViewCell.m in Sources */,
 				6CBC1A7E1FBD866100AAD4AB /* main.m in Sources */,
 				6CBC1A951FBE8C2F00AAD4AB /* CJWHomeCategoryCollectionCell.m in Sources */,
@@ -797,6 +878,7 @@
 				6CBC1A491FBD6C9300AAD4AB /* Constant.m in Sources */,
 				6CBC1A831FBD9BAB00AAD4AB /* CJWBaseTableViewController.m in Sources */,
 				6CBC1A911FBE8B6300AAD4AB /* CJWHomeCategoryCollectionView.m in Sources */,
+				6C92B3871FC7F74300B7A683 /* CJWHomeModel.m in Sources */,
 				6CBC1A761FBD830400AAD4AB /* CJWMineController.m in Sources */,
 				3CDB36681FC2AA5C004A9A5F /* CJWHomeAdvertisementCell.m in Sources */,
 				6CBC19FD1FBD37C500AAD4AB /* AppDelegate.m in Sources */,

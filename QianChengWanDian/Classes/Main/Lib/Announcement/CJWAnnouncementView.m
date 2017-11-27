@@ -63,7 +63,6 @@
 
 - (void)layoutSubviews
 {
-    NSLog(@"====>%@", NSStringFromCGRect(self.frame));
     [self initialSubView];
 }
 

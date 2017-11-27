@@ -18,9 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor randomColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-//    self.extendedLayoutIncludesOpaqueBars = YES;
+    self.extendedLayoutIncludesOpaqueBars = YES;
     
     self.automaticallyAdjustsScrollViewInsets = NO;
 }

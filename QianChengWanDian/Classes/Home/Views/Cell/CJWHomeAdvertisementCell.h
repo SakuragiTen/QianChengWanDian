@@ -10,4 +10,7 @@
 
 @interface CJWHomeAdvertisementCell : CJWBaseTableViewCell
 
+/** 广告数组 */
+@property (nonatomic, strong) NSArray *adArray;
+
 @end

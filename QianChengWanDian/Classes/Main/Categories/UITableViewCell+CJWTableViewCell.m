@@ -32,4 +32,15 @@
     return [tableView dequeueReusableCellWithIdentifier:identifier];
 }
 
+
+- (UITableView *)currentTableView
+{
+    for (UIView *view = self; view.superview; view = view.superview) {
+        if ([view isKindOfClass:[UITableView class]]) {
+            return (UITableView *)view;
+        }
+    }
+    return nil;
+}
+
 @end

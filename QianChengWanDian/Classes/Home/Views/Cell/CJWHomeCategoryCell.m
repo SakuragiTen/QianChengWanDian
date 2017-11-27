@@ -7,6 +7,7 @@
 //
 
 #import "CJWHomeCategoryCell.h"
+
 #import "CJWHomeCategoryCollectionView.h"
 
 @interface CJWHomeCategoryCell ()
@@ -41,7 +42,8 @@
 
 - (void)updateTableView
 {
-    UITableView *tableView = (UITableView *)self.superview.superview;
+    UITableView *tableView = [self currentTableView];
+    
     if (CGSizeEqualToSize(_contentSize, _collectionView.contentSize)) return;
     _contentSize = _collectionView.contentSize;
      [tableView beginUpdates];
@@ -50,9 +52,23 @@
     
 }
 
+- (void)setCategoryArray:(NSArray *)categoryArray
+{
+    _categoryArray = categoryArray;
+    
+    self.collectionView.categoryArray = categoryArray;
+    
+   
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self updateTableView];
+    });
+}
+
+
 - (void)settingCollectionView
 {
-    [_collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
+    
+    [_collectionView mas_updateConstraints:^(MASConstraintMaker *make) {
         make.top.left.right.mas_equalTo(0);
         make.bottom.mas_equalTo(0).priority(750);
         make.height.mas_equalTo(_contentSize.height);

@@ -39,16 +39,22 @@
     return self;
 }
 
+- (void)setCategoryArray:(NSArray *)categoryArray
+{
+    _categoryArray = categoryArray;
+    
+    [self reloadData];
+}
 
 #pragma mark - UICollectionViewDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 9;
+    return _categoryArray.count;
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     CJWHomeCategoryCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CJWHomeCategoryCollectionCell" forIndexPath:indexPath];
-  
+    cell.categoryModel = _categoryArray[indexPath.row];
     return cell;
 }
 
